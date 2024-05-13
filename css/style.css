@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit", sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  margin: 100px auto;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 736px;
+  padding: 40px;
+  border-radius: 9px;
+}
+
+.omelette {
+  width: 656px;
+  border-radius: 9px;
+}
+
+.about-section {
+  padding: 40px 0 32px 0;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.desc {
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+.preparation-section {
+  background-color: hsl(330, 100%, 98%);
+  padding: 32px;
+  border-radius: 5px;
+  line-height: 2.5;
+}
+
+.preparation-section p {
+  color: hsl(332, 51%, 32%);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.preparation-section ul {
+  color: hsl(30, 10%, 34%);
+}
+
+.ingredient-section {
+  padding-top: 32px;
+  line-height: 2.5;
+}
+
+.ingredient-section p {
+  font-size: 32px;
+  color: hsl(14, 45%, 36%);
+}
+
+.ingredient-section ul {
+  padding-left: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+.line {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.instructions-section {
+  line-height: 2.5;
+}
+
+.instructions-section p {
+  font-size: 32px;
+  color: hsl(14, 45%, 36%);
+}
+
+.instructions-section ol {
+  padding-left: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition-section {
+  line-height: 2.5;
+}
+
+.nutrition-heading {
+  font-size: 32px;
+  color: hsl(14, 45%, 36%);
+}
+
+.nutrition-desc {
+  color: hsl(30, 10%, 34%);
+}
+
+.nutrition-section table tr {
+  display: flex;
+  gap: 100px;
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  width: 300% !important;
+}
+
+.nutrition-section table tr:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
